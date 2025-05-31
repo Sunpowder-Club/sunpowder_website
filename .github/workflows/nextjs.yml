@@ -57,12 +57,6 @@ jobs:
           cd sunpowderweb
           npm run export
 
-      - name: Fix asset paths for GitHub Pages
-        run: |
-          cd sunpowderweb/out
-          mkdir -p sunpowder_website
-          cp ../public/*.svg sunpowder_website/
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
