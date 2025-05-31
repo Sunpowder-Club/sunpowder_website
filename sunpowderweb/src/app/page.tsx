@@ -115,12 +115,12 @@ export default function Home() {
             Illuminating the future of gaming, one experience at a time.
           </p>
           <div className="flex justify-center space-x-6 text-slate-400">
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms</a>
-            <a href="#" className="hover:text-white transition-colors">Support</a>
+            <a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#contact" className="hover:text-white transition-colors">Support</a>
           </div>
           <div className="mt-8 text-sm text-slate-500">
-            © 2025 Sunpowder. All rights reserved.
+            © 2025 SUNPOWDER PTE. LTD. All rights reserved.
           </div>
         </div>
       </footer>
