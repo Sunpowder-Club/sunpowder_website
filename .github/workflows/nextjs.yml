@@ -49,13 +49,13 @@ jobs:
 
       - name: Install dependencies (ignoring peer deps)
         run: |
-          cd codelka
+          cd sunpowderweb
           npm ci --legacy-peer-deps
 
       - name: Build Next.js
         run: |
-          cd codelka
-          npm run build
+          cd sunpowderweb
+          npm run export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
