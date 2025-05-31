@@ -54,7 +54,7 @@ jobs:
 
       - name: Build Next.js
         run: |
-          cd codelka
+          cd sunpowderweb
           npm run build
 
       - name: Upload artifact
