@@ -1,12 +1,14 @@
+import Link from 'next/link';
+
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* Navigation */}
       <nav className="relative z-50 px-6 py-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <a href="/" className="text-2xl font-bold text-white hover:text-yellow-400 transition-colors">
+          <Link href="/" className="text-2xl font-bold text-white hover:text-yellow-400 transition-colors">
             Sunpowder
-          </a>
+          </Link>
           <div className="hidden md:flex space-x-8 text-slate-300">
             <a href="/#games" className="hover:text-white transition-colors">Games</a>
             <a href="/#about" className="hover:text-white transition-colors">About</a>
@@ -24,7 +26,7 @@ export default function PrivacyPolicy() {
           <p className="text-lg mb-8">Thank you for playing our games!</p>
           
           <p className="mb-8">
-            This Privacy Policy applies to all of Sunpowder's games, websites, stores, and related services (collectively referred to as the "Service"). We may occasionally update this Privacy Policy by posting a revised version on our website. If we make any significant changes, we will notify you in accordance with applicable laws, which may include placing a notice within the Service before the update becomes effective. Your continued use of the Service after the effective date signifies your agreement to the updated Privacy Policy.
+            This Privacy Policy applies to all of Sunpowder&apos;s games, websites, stores, and related services (collectively referred to as the &quot;Service&quot;). We may occasionally update this Privacy Policy by posting a revised version on our website. If we make any significant changes, we will notify you in accordance with applicable laws, which may include placing a notice within the Service before the update becomes effective. Your continued use of the Service after the effective date signifies your agreement to the updated Privacy Policy.
           </p>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">1. Information We Collect</h2>
@@ -93,7 +95,7 @@ export default function PrivacyPolicy() {
           </ol>
           <p className="mb-8">To exercise these rights, please contact us at <a href="mailto:info@sunpowder.club" className="text-yellow-400 hover:text-yellow-300">info@sunpowder.club</a>. We will respond in accordance with applicable laws.</p>
 
-          <h2 className="text-2xl font-bold text-white mt-12 mb-6">8. Children's Privacy</h2>
+          <h2 className="text-2xl font-bold text-white mt-12 mb-6">8. Children&apos;s Privacy</h2>
           <p className="mb-8">Our Service is not intended for children under 13 years old (or the minimum age in your jurisdiction). We do not knowingly collect personal data from children. If you believe we have collected data from a child under this age, please contact us at <a href="mailto:info@sunpowder.club" className="text-yellow-400 hover:text-yellow-300">info@sunpowder.club</a>, and we will take steps to delete it.</p>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">9. Security Measures</h2>
@@ -123,8 +125,8 @@ export default function PrivacyPolicy() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="text-2xl font-bold text-white mb-4">Sunpowder</div>
           <div className="flex justify-center space-x-6 text-slate-400">
-            <a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
           <div className="mt-8 text-sm text-slate-500">
             © 2025 SUNPOWDER PTE. LTD. All rights reserved.

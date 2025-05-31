@@ -1,12 +1,14 @@
+import Link from 'next/link';
+
 export default function Terms() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* Navigation */}
       <nav className="relative z-50 px-6 py-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <a href="/" className="text-2xl font-bold text-white hover:text-yellow-400 transition-colors">
+          <Link href="/" className="text-2xl font-bold text-white hover:text-yellow-400 transition-colors">
             Sunpowder
-          </a>
+          </Link>
           <div className="hidden md:flex space-x-8 text-slate-300">
             <a href="/#games" className="hover:text-white transition-colors">Games</a>
             <a href="/#about" className="hover:text-white transition-colors">About</a>
@@ -23,7 +25,7 @@ export default function Terms() {
         <div className="prose prose-invert prose-slate max-w-none">
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">1. Acceptance of Terms</h2>
           <p className="mb-8">
-            By accessing or using the games, websites, stores, and related services provided by SUNPOWDER PTE. LTD. (collectively, the "Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you must discontinue your use of the Service immediately. We reserve the right to modify these Terms at any time by posting updated Terms on our website or within the Service. Your continued use of the Service after the effective date of any changes constitutes your acceptance of those changes.
+            By accessing or using the games, websites, stores, and related services provided by SUNPOWDER PTE. LTD. (collectively, the &quot;Service&quot;), you agree to be bound by these Terms of Service (&quot;Terms&quot;). If you do not agree to these Terms, you must discontinue your use of the Service immediately. We reserve the right to modify these Terms at any time by posting updated Terms on our website or within the Service. Your continued use of the Service after the effective date of any changes constitutes your acceptance of those changes.
           </p>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">2. Eligibility</h2>
@@ -55,7 +57,7 @@ export default function Terms() {
           <p className="mb-6">All content, features, and functionality of the Service—including but not limited to software, text, graphics, logos, and trademarks—are owned by Sunpowder or its licensors and are protected by intellectual property laws.</p>
 
           <h3 className="text-xl font-semibold text-yellow-400 mt-8 mb-4">4.2 User-Generated Content</h3>
-          <p className="mb-8">Any content you create, upload, or share through the Service ("User Content") remains your property. However, by providing User Content, you grant Sunpowder a worldwide, non-exclusive, royalty-free, irrevocable, transferable, and sub-licensable license to use, display, reproduce, modify, distribute, and otherwise exploit your User Content in connection with the Service. You represent and warrant that you have all necessary rights to grant this license and that your User Content does not infringe any third-party rights.</p>
+          <p className="mb-8">Any content you create, upload, or share through the Service (&quot;User Content&quot;) remains your property. However, by providing User Content, you grant Sunpowder a worldwide, non-exclusive, royalty-free, irrevocable, transferable, and sub-licensable license to use, display, reproduce, modify, distribute, and otherwise exploit your User Content in connection with the Service. You represent and warrant that you have all necessary rights to grant this license and that your User Content does not infringe any third-party rights.</p>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">5. Code of Conduct</h2>
           <p className="mb-4">When using the Service, you agree not to:</p>
@@ -70,7 +72,7 @@ export default function Terms() {
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">6. Virtual Items and Purchases</h2>
           
           <h3 className="text-xl font-semibold text-yellow-400 mt-8 mb-4">6.1 Virtual Items</h3>
-          <p className="mb-6">The Service may allow the purchase of virtual currency, goods, or other in-game items (collectively "Virtual Items"). These Virtual Items have no real-world monetary value and cannot be sold, transferred, or exchanged for cash or any other goods or services outside the Service.</p>
+          <p className="mb-6">The Service may allow the purchase of virtual currency, goods, or other in-game items (collectively &quot;Virtual Items&quot;). These Virtual Items have no real-world monetary value and cannot be sold, transferred, or exchanged for cash or any other goods or services outside the Service.</p>
 
           <h3 className="text-xl font-semibold text-yellow-400 mt-8 mb-4">6.2 Payment and Refunds</h3>
           <ul className="list-disc list-inside mb-8 space-y-2">
@@ -97,17 +99,17 @@ export default function Terms() {
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">9. Disclaimer of Warranties</h2>
           
-          <h3 className="text-xl font-semibold text-yellow-400 mt-8 mb-4">9.1 "As Is" Basis</h3>
-          <p className="mb-6">The Service is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind. To the fullest extent permitted by law, Sunpowder disclaims all warranties, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+          <h3 className="text-xl font-semibold text-yellow-400 mt-8 mb-4">9.1 &quot;As Is&quot; Basis</h3>
+          <p className="mb-6">The Service is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis without warranties of any kind. To the fullest extent permitted by law, Sunpowder disclaims all warranties, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
 
           <h3 className="text-xl font-semibold text-yellow-400 mt-8 mb-4">9.2 No Guarantee</h3>
           <p className="mb-8">We do not guarantee that the Service will be uninterrupted, error-free, secure, or free of viruses or other harmful components. Your use of the Service is at your own risk.</p>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">10. Limitation of Liability</h2>
-          <p className="mb-8">To the fullest extent permitted by law, Sunpowder shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Service, including but not limited to loss of revenue, loss of data, or loss of goodwill. In no event shall Sunpowder's total liability to you exceed the amounts paid by you (if any) for the Service in the six (6) months preceding the event giving rise to such liability.</p>
+          <p className="mb-8">To the fullest extent permitted by law, Sunpowder shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Service, including but not limited to loss of revenue, loss of data, or loss of goodwill. In no event shall Sunpowder&apos;s total liability to you exceed the amounts paid by you (if any) for the Service in the six (6) months preceding the event giving rise to such liability.</p>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">11. Indemnification</h2>
-          <p className="mb-8">You agree to indemnify, defend, and hold harmless Sunpowder and its affiliates, officers, employees, agents, and licensors from and against any claims, liabilities, damages, judgments, awards, losses, costs, or expenses (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of the Service.</p>
+          <p className="mb-8">You agree to indemnify, defend, and hold harmless Sunpowder and its affiliates, officers, employees, agents, and licensors from and against any claims, liabilities, damages, judgments, awards, losses, costs, or expenses (including reasonable attorneys&apos; fees) arising out of or relating to your violation of these Terms or your use of the Service.</p>
 
           <h2 className="text-2xl font-bold text-white mt-12 mb-6">12. Dispute Resolution</h2>
           
@@ -136,8 +138,8 @@ export default function Terms() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="text-2xl font-bold text-white mb-4">Sunpowder</div>
           <div className="flex justify-center space-x-6 text-slate-400">
-            <a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
           <div className="mt-8 text-sm text-slate-500">
             © 2025 SUNPOWDER PTE. LTD. All rights reserved.
