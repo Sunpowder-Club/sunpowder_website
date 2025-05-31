@@ -10,9 +10,9 @@ export default function Terms() {
             Sunpowder
           </Link>
           <div className="hidden md:flex space-x-8 text-slate-300">
-            <a href="/#games" className="hover:text-white transition-colors">Games</a>
-            <a href="/#about" className="hover:text-white transition-colors">About</a>
-            <a href="/#contact" className="hover:text-white transition-colors">Contact</a>
+            <Link href="/#games" className="hover:text-white transition-colors">Games</Link>
+            <Link href="/#about" className="hover:text-white transition-colors">About</Link>
+            <Link href="/#contact" className="hover:text-white transition-colors">Contact</Link>
           </div>
         </div>
       </nav>
