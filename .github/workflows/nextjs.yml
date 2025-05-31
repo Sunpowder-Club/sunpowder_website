@@ -49,7 +49,7 @@ jobs:
 
       - name: Install dependencies (ignoring peer deps)
         run: |
-          cd codelka
+          cd sunpowderweb
           npm ci --legacy-peer-deps
 
       - name: Build Next.js
